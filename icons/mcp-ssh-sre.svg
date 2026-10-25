@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0B0F17"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <!-- terminalvenster -->
+  <rect x="36" y="52" width="184" height="152" rx="16" fill="#111827" stroke="#374151" stroke-width="4"/>
+  <circle cx="58" cy="72" r="5" fill="#F87171"/>
+  <circle cx="76" cy="72" r="5" fill="#FBBF24"/>
+  <circle cx="94" cy="72" r="5" fill="#34D399"/>
+  <!-- prompt -->
+  <path d="M60 112 L84 128 L60 144" fill="none" stroke="#34D399" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- hartslag (SRE / monitoring) -->
+  <path d="M100 150 L126 150 L138 118 L154 172 L166 140 L196 140" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

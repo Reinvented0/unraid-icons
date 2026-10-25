@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A3F5C"/>
+      <stop offset="1" stop-color="#171A2B"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <!-- drie server-units -->
+  <g fill="#ECEEF7">
+    <rect x="52" y="58"  width="152" height="38" rx="10"/>
+    <rect x="52" y="109" width="152" height="38" rx="10"/>
+    <rect x="52" y="160" width="152" height="38" rx="10"/>
+  </g>
+  <!-- status-ledjes -->
+  <g>
+    <circle cx="76" cy="77"  r="7" fill="#34D399"/>
+    <circle cx="76" cy="128" r="7" fill="#34D399"/>
+    <circle cx="76" cy="179" r="7" fill="#F5B942"/>
+  </g>
+  <!-- ventilatiesleufjes -->
+  <g stroke="#9AA0BC" stroke-width="6" stroke-linecap="round">
+    <line x1="140" y1="77"  x2="184" y2="77"/>
+    <line x1="140" y1="128" x2="184" y2="128"/>
+    <line x1="140" y1="179" x2="184" y2="179"/>
+  </g>
+</svg>
